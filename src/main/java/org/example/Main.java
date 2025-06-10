@@ -1,7 +1,10 @@
 package org.example;
 public class Main{
     public static void main(String[] args) {
-        car car = new car(10,4,"on","Driving");
-        car.run();
+    bike bike = new bike();
+    bike.handle = "short";
+    bike.seat =2;
+    System.out.println(bike.handle);
+    System.out.println(bike.seat);
     }
 }
