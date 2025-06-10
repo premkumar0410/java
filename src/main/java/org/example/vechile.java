@@ -15,8 +15,8 @@ public class vechile {
     public String toString(){
         return "vechile {" +
                 "engine = "+engine +
-                " fule =" + fuel+
-                " seat =" + seat+"}";
+                " fule = " + fuel+
+                " seat = " + seat+"}";
     }
 
 
