@@ -16,6 +16,16 @@ public class graphic_card {
         this.memory = memory;
     }
 
+    public String getBrand(){
+        return brand;
+    }
+    public int getModel(){
+        return  model;
+    }
+    public int getMemory(){
+        return memory;
+    }
+
     public String toString(){
         return "brand = "+brand +","+
                 "model = "+model +","+

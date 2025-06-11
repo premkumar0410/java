@@ -5,6 +5,6 @@ public class Main{
     public static void main(String[] args) {
         laptop laptop = new laptop();
 
-        System.out.println(laptop.toString());
+        System.out.println(laptop.getGraphic_card().getBrand());
     }
 }

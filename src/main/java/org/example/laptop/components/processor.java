@@ -20,6 +20,22 @@ public class processor {
         this.thread = thread;
     }
 
+    public String getBrand(){
+        return  brand;
+    }
+
+    public int getMemory(){
+        return memory;
+    }
+
+    public int getCore(){
+        return core;
+    }
+
+    public int getThread(){
+        return  thread;
+    }
+
     public String toString(){
         return "brand = " + brand + "," +
                 "memory = "+ memory + ","+

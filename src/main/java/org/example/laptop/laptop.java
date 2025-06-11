@@ -15,7 +15,23 @@ public class laptop {
         this.graphic_card = new graphic_card();
     }
 
-    public laptop(String screen,processor processor,int ram,graphic_card graphic_card){
+    public String getScreen() {
+        return screen;
+    }
+
+    public processor getProcessor() {
+        return processor;
+    }
+
+    public int getRam() {
+        return ram;
+    }
+
+    public graphic_card getGraphic_card() {
+        return graphic_card;
+    }
+
+    public laptop(String screen, processor processor, int ram, graphic_card graphic_card){
         this.screen = screen;
         this.processor = processor;
         this.ram = ram;
