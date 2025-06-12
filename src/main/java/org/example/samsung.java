@@ -1,11 +1,12 @@
 package org.example;
 
-public class iphone implements phone{
+public class samsung implements phone{
     public String processor(){
-        return "A15";
+        return "SD1000";
     }
 
     public int spaceingb(){
         return 256;
     }
+
 }
