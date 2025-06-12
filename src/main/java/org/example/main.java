@@ -7,6 +7,7 @@ public class main {
     int phone1_space = phone1.spaceingb();
     System.out.println(phone1_processor);
     System.out.println(phone1_space);
+    System.out.println(phone1.quickshare());
 
 
     iphone phone2 = new iphone();
@@ -14,5 +15,8 @@ public class main {
     int phone2_space = phone2.spaceingb();
     System.out.println(phone2_processor);
     System.out.println(phone2_space);
+    System.out.println(phone2.airdrop());
+
+
     }
 }
