@@ -2,21 +2,24 @@ package org.example;
 
 public class main {
     public static void main(String[] args) {
-    samsung phone1 = new samsung();
-    String phone1_processor = phone1.processor();
-    int phone1_space = phone1.spaceingb();
-    System.out.println(phone1_processor);
-    System.out.println(phone1_space);
-    System.out.println(phone1.quickshare());
+    person male = new male();
+    male.gender();
+    male.speak();
+        System.out.println("-------------------------------------------------");
+    person female;
+    female = new female();
+    female.speak();
+    female.gender();
+        System.out.println("------------------------------------------------");
+    person p1 = new person() {
 
+        public void gender() {
+            System.out.println("male");
+        }
+    };
 
-    iphone phone2 = new iphone();
-    String phone2_processor = phone2.processor();
-    int phone2_space = phone2.spaceingb();
-    System.out.println(phone2_processor);
-    System.out.println(phone2_space);
-    System.out.println(phone2.airdrop());
-
+    p1.gender();
+    p1.speak();
 
     }
 }
