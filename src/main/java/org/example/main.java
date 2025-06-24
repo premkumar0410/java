@@ -2,14 +2,16 @@ package org.example;
 
 public class main {
     public static void main(String[] args) {
+        inner_class.innerclass.inner();
+        System.out.println(inner_class.innerclass.x);
 
-//static make only one variable in the memory so if changes happen the only variable will be changed
-        System.out.println("value 1 :" + teststatic.getValue());
+        inner_class nc = new inner_class();
+        inner_class.nonstaticclass nsc = nc.new nonstaticclass();
+        nsc.nonstatic();
 
-        teststatic.setValue(20);
 
-        System.out.println("value 2 :" + teststatic.getValue());
 
-        System.out.println(teststatic.getValue());
+
+
     }
 }
